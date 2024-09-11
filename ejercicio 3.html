@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Formulario de prueba de HTML5</title>
+<html> <!-- Define el inicio y el fin de todo el contenido HTML de la página web-->
+<head> <!--Contiene información meta sobre el documento web para interpretar correctamente la página-->
+<title>Formulario de prueba de HTML5</title> <!--Define el título de la página web que se muestra en la pestaña del navegador-->
 </head>
-<body>
+<body> <!--Define la sección principal del documento donde se coloca todo el contenido visible-->
 
-<form action="" method="get">
-<p>
+<form  action="" method="get"> <!--se utiliza para definir un formulario que envía datos a un servidor para su procesamiento-->
+    <!--Action: Especifica la URL a la que se enviarán los datos del formulario cuando se envíe-->
+    <!--method: Define el método HTTP que se utilizará para enviar los datos del formulario. Los dos métodos más comunes son GET y POST.-->
+<p> <!--<p></p> define un párrafo de texto --> 
 Nombre: <input type="text" name="name_control" autofocus required />
+<!-- Se utiliza para crear diversos tipos de campos de entrada dentro de un formulario. -->
+<!-- type es el campo de entrada puede ser de diferentes tipos, como texto, botón, casilla de verificación, etc. -->
 </p>
 
 <p>
@@ -25,35 +29,27 @@ Fecha: <input type="date" name="date_control" />
 <p>
 Tiempo: <input type="time" name="time_control" />
 </p>
-
 <p>
 Fecha y hora: <input type="datetime" name="datetime_control" />
 </p>
-
 <p>
 Mes: <input type="month" name="month_control" />
 </p>
-
 <p>
 Semana: <input type="week" name="week_control" />
 </p>
-
 <p>
 Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" />
 </p>
-
 <p>
 Teléfono: <input type="tel" name="tel_control" />
 </p>
-
 <p>
 Término de búsqueda: <input type="search" name="search_control" />
 </p>
-
 <p>
 Color favorito: <input type="color" name="color_control" />
 </p>
-
 <p>
 <input type="submit" value="Enviar" />
 </p>
